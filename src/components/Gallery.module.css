@@ -1,0 +1,51 @@
+.root {
+    margin: 25px 0;
+  }
+  
+  .trending_scroll {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-left: 10%;
+  }
+  
+  .label {
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    font-size: 0.8rem;
+  }
+  
+  .card > p {
+    margin: 0;
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+  
+  .card {
+    display: inline-block;
+    margin: 15px 15px;
+    overflow-x: auto;
+  }
+  
+  .card > img {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 300px;
+  }
+  
+  .trending_scroll::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .trending_scroll {
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  
+  .bottomNav {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+  
